@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "typeRoots": ["./node_modules/@types", "./src/types"],
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "module": "es6",
+        "target": "es6",
+        "resolveJsonModule": true,
+        "paths": {
+            "@/*": ["./src/*"],
+            "@stateMachine/*": ["./src/stateMachine/*"]
+        },
+        "plugins": [
+            {
+                "name": "typescript-tslint-plugin"
+            }
+        ]
+    },
+    "files": ["src/globals.d.ts", "src/index.ts"]
+}
