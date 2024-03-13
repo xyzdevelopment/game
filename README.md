@@ -7,7 +7,10 @@ http://localhost:3002/
 
 What is missing
 
--   instead scaling i should scroll the container
+-   instead scaling i should scroll the container on tank move
 -   i should use a real asset (currently is difficult to understand where it's rotated) but shoot and you will see :D
 -   the hays are yellow
 -   the walls are white
+-   Arrow keys to move and rotate
+-   Space to fire
+-   t to change tank
